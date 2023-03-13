@@ -3,7 +3,9 @@
 <%@page import="java.util.List"%>
 <%@page import="bean.Cine"%>
 <%@ page pageEncoding="UTF-8"%>
+
 <%@ taglib prefix="s" uri="/struts-tags" %>
+
 <% Cine cine = ( Cine ) session.getAttribute("cine"); %>
 
 <h2><%= cine.getRazonSocial() %></h2>

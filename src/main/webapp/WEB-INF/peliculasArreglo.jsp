@@ -1,6 +1,8 @@
 <%-- any content can be specified here e.g.: --%>
 <%@ page pageEncoding="UTF-8" %>
+
 <%@ taglib prefix="s" uri="/struts-tags" %>
+
 <% String[][] peliculas = ( String[][] ) session.getAttribute( "data" );
    for ( String[] pelicula : peliculas ) {%>
 

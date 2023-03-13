@@ -1,5 +1,7 @@
 <%@ page pageEncoding="UTF-8" %>
+
 <%@ taglib prefix="s" uri="/struts-tags" %>
+
 <br/><h1>Nuestros Cines</h1><br/>
 <% String[][] cines = ( String[][] ) session.getAttribute("cines");
    for ( String[] aCines : cines ) {%>

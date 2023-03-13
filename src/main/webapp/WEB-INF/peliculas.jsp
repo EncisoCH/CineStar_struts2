@@ -1,7 +1,9 @@
 <%@page import="bean.Pelicula"%>
 <%@page import="java.util.List"%>
 <%@ page pageEncoding="UTF-8" %>
+
 <%@ taglib prefix="s" uri="/struts-tags" %>
+
 <br/><h1>Cartelera</h1><br/>
 
 <% List<Pelicula> peliculas = ( List<Pelicula> ) session.getAttribute( "data" );

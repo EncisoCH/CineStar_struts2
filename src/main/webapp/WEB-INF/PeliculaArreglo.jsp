@@ -1,7 +1,9 @@
 <%@page import="bean.Pelicula"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+    
     <%@ taglib prefix="s" uri="/struts-tags" %>
+    
 <% Pelicula Pelicula = ( Pelicula ) session.getAttribute( "data" ); %>
 <br/><h1>Cartelera</h1><br/>
 
